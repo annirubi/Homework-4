@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+body {
+    margin: 0px;
+    font-family: 'Radio Canada', sans-serif;
+    background: linear-gradient(#CDF0EA,#F9F9F9,#F7DBF0,#BEAEE2);
+}
+
+header {
+    width: 500px;
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px;
+}
+.avatar {
+    width: 200px;
+}
+
+.container1 {
+    width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+.container1 > .container1__description-purple {
+    color: #6a5993;
+}
+
+.container2 {
+    width: 900px;
+    margin: 10px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.container2__item {
+    width: 270px;
+    height: 70px;
+    background-color: #dcd6ea;
+    border: none;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    color: #6a5993;
+    
+}
+.container3 {
+    width: 500px;
+    margin: 10px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+.container3 > .container3__title {
+    color: #6a5993;
+}
+.container3 > .container3__title > .container3__description {
+    text-decoration: underline;
+    width: 450px;
+    border-radius: 10px;
+    background-color:  #CDF0EA;
+    text-align: center;
+}
+.container3__description_button {
+    width: 90px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #CDF0EA;
+    color: #6a5993;
+    text-align: center;
+    line-height: 40px ;
+}
+a {
+    text-decoration: none;
+    color: #6a5993;
+}
+.container3__description_button:hover {
+    cursor: pointer;
+    opacity: .7;
+}
+
+.container4 {
+    width: 500px;
+    margin: 10px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.container4 > .container4__title {
+    text-align: center;
+}
+
+.container4 > .container4__description {
+    color: #6a5993;
+    text-align: center;
+}
+
+.container4__description_button {
+    width: 220px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #CDF0EA;
+    color: #6a5993;
+    text-align: center;
+    line-height: 40px ;
+}
+.container4__description_button:hover {
+    cursor: pointer;
+    opacity: .7; 
+}
+
+footer {
+    background-image: url('assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: aliceblue; 
+}
+input, textarea {
+    margin: 2px 0px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+input:hover {
+    cursor: pointer;
+    opacity: .7;  
+}
+
+.profile {
+    width: 40px;
+    margin: 5px;
+}
+
+.profile2 {
+    height: 40px;
+    margin: 5px;
