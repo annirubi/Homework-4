@@ -5,7 +5,7 @@ Here is the link to a new **CV Page**:
 
 ___
 What was improved:
-1. Used baclground:linear-gradient
+1. Used background:linear-gradient
 2. Added the input "clear"
 3. Used border radius
 4. Added the section with experience
